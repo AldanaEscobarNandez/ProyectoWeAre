@@ -6,6 +6,9 @@
     color: #826D5C;
     
 }
+@media screen {
+  
+}
 
 .banner {
   background-image: url('../assets/Imagenes/banner.png');
@@ -122,6 +125,7 @@ h3 {
   flex-direction: row;
   justify-content: center;
 }
+
 .containerSec {
   display: flex;
   align-items: center;
@@ -250,6 +254,12 @@ flex-direction: column;
   grid-area: "noticias";
   grid-row: 2 / 3;
   grid-column: 2 / 4;
+}
+
+.wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
 
