@@ -185,6 +185,8 @@ line-height: 2;
 }
 */
 #button1 {
+  justify-content: center;
+  align-content: center;
   background-color: #EAD0BA;
   color: #ffffff;
   border: 1px solid #B4A090;
@@ -314,21 +316,79 @@ footer section a {
     height: 45px;
   }
   .logo{
-    width: 43px;
+    width: 40px;
+  }
+  nav ul li{
+    width: 90px;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+  .imagenTurno {
+    width: 85%;
+    align-self: center;
+    padding: 0px;
+    margin: 0px;
+    justify-self: center;
+  }
+  .containerSecTrunos {
+    width: 300px;
+    height: 350px;
+    padding: 0px;
+    margin: 10px;
+    justify-self: center;
+    align-self: center;
+  }
+  .wsp{
+    width: 60px;
+    bottom:  100px;
+  }
+  .subtitulo{
+    font-size: 18px;
+    margin: 0px;
+  }
+  ul li label {
+    font-size: 14px;
+  }
+  #button1{
+    height: 35px;
+    text-align: center;
+    margin: 0px;
+  }
+  h3{
+    padding: 5px;
   }
 } 
 @media (max-width:425px) {
 .navBar {
   display: flex;
   flex-direction: column;
+  border: 0px;
+  background-color: transparent;
+  box-shadow: none;
+  align-self: left;
+  
 }
 nav {
   display: flex;
   flex-direction: column;
+  background-color: none;
+  width: 90px;
+  height: 200px;
 }
 nav ul li {
   display: flex;
   flex-direction: column;
+  background-color: #ffffff;
+  margin: 10px;
+  justify-self: left;
+  margin-left: 22px;
+}
+.bannerSuperior{
+  padding: 25px;
+}
+.logo{
+  justify-self: center;
 }
 }
 @media (max-width: 320px) {
